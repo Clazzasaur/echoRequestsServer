@@ -1,4 +1,5 @@
-from BaseHTTPServer import HTTPServer, BaseHTTPRequestHandler
+from BaseHTTPServer import HTTPServer, BaseHTTPRequestHandler # PYTHON 2
+# from http.server import HTTPServer, BaseHTTPRequestHandler # PYTHON 3
 
 class RequestHandler(BaseHTTPRequestHandler):
     def do_GET(self):
